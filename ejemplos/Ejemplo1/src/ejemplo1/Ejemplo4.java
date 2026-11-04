@@ -24,7 +24,9 @@ public class Ejemplo4 {
         System.out.println("Ingrese la nota necesaria");
         promedio = entrada.nextDouble();
         
-        entrada.nextLine();
+        entrada.nextLine();  
+        /*La entrada.nextline sirve para hacer una limpiezade bufer para
+        cambiar el tipo de variable */
         
         String nombreEstudiante;
         System.out.println("Ingrese nombre de estudiante");
